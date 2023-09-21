@@ -2,6 +2,16 @@
 test test ändring av text
 
 
+
+
+________Här sparar vi ideer till kommande kod________:
+
+
+
+
+
+_________navigations knappar till resterande del av sidan_____
+
 <div class="navigation-buttons">
       <a href="#about-me">Om mig</a>
     </div>
@@ -22,6 +32,23 @@ css:
   border-radius: 5px;
 }
 
-    Fonts:
+
+__________________knapp till ny sida:_________________
+
+  </div>
+      <a href="https://www.nbi-handelsakademin.se/utbildningar/it-tech/frontend-developer/?gclid=CjwKCAjwsKqoBhBPEiwALrrqiOSITOrXIzPxBdOJZc_5B_LNU0L58ngoN6bATRPsIMYt9AWH7HeimRoC7T8QAvD_BwE" class="omoss-button">Om oss</a>
+
+css:
+    .utbildning-button {
+  background-color: #ab4adc;
+  color: #fff;
+}
+ omoss-button:hover {
+  background-color: #555; 
+}
+
+________________Fonts:_________________
+
+    
     Times New Roman
     Roboto
