@@ -75,12 +75,14 @@ main > p {
 
 
 .navigation-knappar a:hover {
-    background-color: #8387be;
+    background-color: #e2adf6;
   }
+  
   
 .header-container img {
     width: 150px; 
     height:150px;
+    margin-top: 2em;
     
 }
 
