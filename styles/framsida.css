@@ -26,6 +26,8 @@ main > p {
 }
 
 
+
+
 .navigation-knappar {
     display: flex;
     flex-wrap: wrap; 
@@ -67,16 +69,12 @@ main > p {
   }
   
   
-.header-container  img {
-    width: 55px;
-    height: 55px;
-   
-    
+  
+.header-container img {
+    width: 150px; 
+    height:150px;
     
 }
-
-/*____________heander slut____________________*/
-
 main {
     margin-top: 1em;
     margin-bottom:7em ;
