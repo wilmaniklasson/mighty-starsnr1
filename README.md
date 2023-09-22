@@ -47,6 +47,8 @@ css:
   background-color: #555; 
 }
 
+xxx:hover (om man vill grejen ska ändra färg när musen är över)
+
 ________________Fonts:_________________
 
     
