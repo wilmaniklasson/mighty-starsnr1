@@ -57,7 +57,13 @@ main > p {
   font-size: 18px;
   padding: 0.5em;
   background-color: #e9d1fc;
+  font-size: 18px;
+  padding: 0.5em;
+  background-color: #e9d1fc;
   border-radius: 5px;
+  width: 6em;
+  border: double rgb(114, 94, 247);
+  text-align: center;
   width: 6em;
   border: double rgb(114, 94, 247);
   text-align: center;
@@ -68,13 +74,14 @@ main > p {
 
 
 .navigation-knappar a:hover {
-    background-color: #8387be;
+    background-color: #e2adf6;
   }
   
   
 .header-container img {
     width: 150px; 
     height:150px;
+    margin-top: 2em;
     
 }
 main {
