@@ -15,38 +15,39 @@ main > p {
 
 /*____________heander________*/
 
-.header-container {
-    
-}
-
-
 .navigation-knappar {
     display: flex;
-
-    
+    position: fixed;
 }
+
 
 
 .navigation-knappar a {
   display: inline-block;  
   text-decoration: none;
-  color: #333;
+  color: #333333;
   margin: 0.5em;
   font-weight: bold;
-  padding: 1em;
-  background-color: #eee;
+  font-size: 18px;
+  padding: 0.5em;
+  background-color: #e9d1fc;
   border-radius: 5px;
+  width: 6em;
+  border: double rgb(114, 94, 247);
+  text-align: center;
   
 
 }
 
 .navigation-knappar a:hover {
-    background-color: #dddddd;
+    background-color: #e2adf6;
   }
+  
   
 .header-container img {
     width: 150px; 
     height:150px;
+    margin-top: 2em;
     
 }
 
