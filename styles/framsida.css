@@ -13,6 +13,12 @@ main > p {
 }
 
 
+/*____________heander________*/
+
+.header-container {
+    
+}
+
 
 .navigation-knappar {
     display: flex;
@@ -43,6 +49,9 @@ main > p {
     height:150px;
     
 }
+
+/*____________heander slut____________________*/
+
 main {
     margin-top: 1em;
 }
