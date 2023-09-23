@@ -2,6 +2,7 @@ body {
    
    
    
+   
 }
 
 h1 {
@@ -20,6 +21,10 @@ main > p {
     padding-bottom: 6em;
 }
 
+.header-container{
+    padding-bottom: 6em;
+}
+
 
 .navigation-knappar {
     display: flex;
@@ -29,7 +34,12 @@ main > p {
     flex-wrap: wrap; 
     justify-content: center; 
     align-items: center; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
     position: fixed;
+    height: 4em;
+    width: 100%; 
     height: 4em;
     width: 100%; 
     height: 4em;
@@ -49,39 +59,19 @@ main > p {
     min-width: 6em; 
     border: 4px double rgb(114, 94, 247);
     text-align: center;
-  display: inline-block;  
-  text-decoration: none;
-  color: #333333;
-  margin: 0.5em;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 0.5em;
-  background-color: #e9d1fc;
-  font-size: 18px;
-  padding: 0.5em;
-  background-color: #e9d1fc;
-  border-radius: 5px;
-  width: 6em;
-  border: double rgb(114, 94, 247);
-  text-align: center;
-  width: 6em;
-  border: double rgb(114, 94, 247);
-  text-align: center;
-  
-
 }
 
 
-
 .navigation-knappar a:hover {
-    background-color: #e2adf6;
+    background-color: #8387be;
   }
   
   
-.header-container img {
-    width: 150px; 
-    height:150px;
-    margin-top: 2em;
+.header-container  img {
+    width: 55px;
+    height: 55px;
+   
+    
     
 }
 main {
