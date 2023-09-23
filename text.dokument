@@ -49,3 +49,15 @@ ________________Fonts:_________________
     
     Times New Roman
     Roboto
+
+
+
+__Ett alternativ till bakgrund om vi får problem med bilden ___
+
+body {
+    background-image: linear-gradient(to bottom, #ffffff,#ffffff, 
+    #ffffff, #ffffff,#ffffff,#a3ddf8,#83e2f7,
+    #80cffa,#72bbf6, #73a0f3, #629afa, 
+    #a552f3, #c689de);
+    background-attachment: fixed;
+}
