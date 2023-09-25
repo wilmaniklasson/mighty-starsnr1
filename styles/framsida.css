@@ -81,6 +81,9 @@ main > p {
     
     
 }
+
+/*____________header slut____________________*/
+
 main {
     margin-top: 1em;
     margin-bottom:7em ;
@@ -112,7 +115,6 @@ img {
 .om-oss-conatiner > div {
     text-align: center;
 }
-
 
 /*________________footer______________*/
 h2 {
