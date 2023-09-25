@@ -93,6 +93,11 @@ main {
     padding: 5em;
 
 }
+img {
+    width: 290px;
+    height: 250px;
+}
+
   
    
 .om-oss-conatiner {
@@ -103,6 +108,7 @@ main {
 .om-oss-conatiner > div {
     text-align: center;
 }
+
 
 /*________________footer______________*/
 h2 {
