@@ -1,0 +1,51 @@
+
+________Här sparar vi ideer till kommande kod________:
+
+
+
+
+
+_________navigations knappar till resterande del av sidan_____
+
+<div class="navigation-buttons">
+      <a href="#about-me">Om mig</a>
+    </div>
+    
+    
+     <div id="about-me">
+*/till dellen av sidan vi vill till/*
+    </div>
+
+css:
+.navigation-buttons a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+
+__________________knapp till ny sida:_________________
+
+  </div>
+      <a href="https://www." class="button">klicka här</a>
+
+css:
+.button {
+  background-color: #ab4adc;
+  color: #fff;
+}
+  button:hover {
+  background-color: #555; 
+}
+
+"Hover" används för att definiera stilar eller beteenden på ett element när användaren flyttar muspekaren över element.
+Vi kan även använda detta på andra sätt tex: "text-decoration: underline;" 
+________________Fonts:_________________
+
+    
+    Times New Roman
+    Roboto
