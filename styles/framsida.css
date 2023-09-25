@@ -1,0 +1,65 @@
+header {
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+main > p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.navigation-knappar {
+    display: flex;
+    
+}
+
+
+.navigation-knappar a {
+  display: inline-block;  
+  text-decoration: none;
+  color: #333;
+  margin: 0.5em;
+  font-weight: bold;
+  padding: 1em;
+  background-color: #eee;
+  border-radius: 5px;
+
+}
+
+.navigation-knappar a:hover {
+    background-color: #dddddd;
+  }
+  
+.header-container img {
+    width: 150px; 
+    height:150px;
+    
+}
+
+.produkten-container {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    gap: 1em;
+}
+
+
+.produkten-container > div {
+    padding: 5em;
+
+}
+  
+   
+.om-oss-conatiner {
+    margin: 3em;
+    
+}
+
+.om-oss-conatiner > div {
+    text-align: center;
+}
+
+  
