@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(to right, rgb(14, 13, 13), rgb(33, 32, 32));
+    color: aliceblue;
+}
+.logo{
+    width: 20em;
+    height: 12em;
+    display: block;
+    margin: 0 auto;
+}
