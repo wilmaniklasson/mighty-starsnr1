@@ -43,6 +43,20 @@ main > p {
     min-width: 6em; 
     border: 4px double rgb(114, 94, 247);
     text-align: center;
+  display: inline-block;  
+  text-decoration: none;
+  color: #333333;
+  margin: 0.5em;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0.5em;
+  background-color: #e9d1fc;
+  border-radius: 5px;
+  width: 6em;
+  border: double rgb(114, 94, 247);
+  text-align: center;
+  
+
 }
 
 
@@ -59,10 +73,11 @@ main > p {
     
 }
 
-/*____________heander slut____________________*/
+/*____________header slut____________________*/
 
 main {
     margin-top: 1em;
+    margin-bottom:7em ;
 }
 .produkten-container {
     display: grid;
@@ -75,6 +90,11 @@ main {
     padding: 5em;
 
 }
+img {
+    width: 290px;
+    height: 250px;
+}
+
   
    
 .om-oss-conatiner {
@@ -86,4 +106,33 @@ main {
     text-align: center;
 }
 
-  
+/*________________footer______________*/
+h2 {
+    text-align: center;
+    font-size:25px ;
+}
+
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:2em ;
+    
+}
+
+
+
+
+.info-knapp a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #b0bede;
+    border-radius: 5px;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 4px double rgb(114, 94, 247);
+    text-align: center;
+}
+    
