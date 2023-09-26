@@ -65,7 +65,7 @@ main > p {
   }
   
   
-.header-container  img {
+.header-container img {
     width: 55px;
     height: 55px;
    
@@ -82,17 +82,18 @@ main {
 .produkten-container {
     display: grid;
     grid-template-columns:1fr 1fr ;
-    gap: 1em;
+    
 }
 
 
 .produkten-container > div {
-    padding: 5em;
+    padding: 1em;
 
 }
 img {
     width: 350px;
     height: 230px;
+    padding: 0;
 }
 
   
