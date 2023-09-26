@@ -1,0 +1,10 @@
+body{
+    background-color: #121212;
+    color: aliceblue;
+}
+.logo{
+    width: 20em;
+    height: 12em;
+    display: block;
+    margin: 0 auto;
+}
