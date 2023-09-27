@@ -46,10 +46,7 @@ body{
     font-weight: bold; 
     font-family: 'Courier New', Courier, monospace; 
 } 
-.main-header { 
-    background-image: url("images/unpaid-logo.png") ; 
-    background-size: cover; 
-    background-color: rgba(0, 0, 0, 6); 
+.main-header {
     background-blend-mode: multiply; 
     padding-bottom: 30px; 
 } 
@@ -99,7 +96,7 @@ html, body {
     justify-content: space-between; 
 } 
 .main-footer { 
-    background-color:black 
+    background: linear-gradient(#121212, black); 
 } 
 .main-footer-container { 
     display: flex; 
