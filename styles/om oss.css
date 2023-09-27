@@ -92,11 +92,11 @@ html, body {
     padding: 0 1.5em; 
 } 
 .menu-container { 
-    flex: auto; 
+    display: flex;
     justify-content: space-between; 
 } 
 .main-footer { 
-    background: linear-gradient(#121212, black); 
+    background: linear-gradient(#121212, rgb(54, 31, 31)); 
 } 
 .main-footer-container { 
     display: flex; 

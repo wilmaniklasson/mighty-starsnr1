@@ -1,0 +1,8 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr, 2fr, 1fr;
+    grid-template-rows: repeat(5, auto);
+}
+.empty1 .empty2{
+    grid-row: span 5;
+}
