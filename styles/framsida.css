@@ -73,11 +73,11 @@ main > p {
     
 }
 
-/*____________header slut____________________*/
+/*____________Main____________________*/
 
 main {
     margin-top: 1em;
-    margin-bottom:7em ;
+    margin-bottom:5em ;
 }
 .produkten-container {
     display: grid;
@@ -87,7 +87,7 @@ main {
 
 
 .produkten-container > div {
-    padding: 5em;
+    padding: 2em;
 
 }
 img {
@@ -96,9 +96,23 @@ img {
 }
 
 .info-container {
-    display: flex;
-    flex-wrap: wrap; 
-    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 2em;
+    
+    
+}
+.info-item {
+    font-size: 18px;
+   
+}
+
+
+
+.info-item > img {
+    height: 30px;
+    width: 40px;
+
 }
   
    
@@ -108,7 +122,7 @@ img {
 }
 
 .om-oss-conatiner > div {
-    text-align: center;
+
 }
 
 /*________________footer______________*/
