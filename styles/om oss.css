@@ -8,3 +8,16 @@ body{
     display: block;
     margin: 0 auto;
 }
+.meddelande-container {
+	text-align: left;
+	display: block;
+}
+
+.meddelande-container label {
+	display: block;
+}
+
+.meddelande-container textarea {
+	width: 20em;
+	resize: none;
+}
