@@ -94,24 +94,27 @@ html, body {
  .foto-container-container {
  	display: flex;
  	flex-wrap: wrap;
- 	justify-content: flex-start;
-	align-items: center;
-
+ 	justify-content: space-between;
+	align-content: center;
+	margin: 3em;
  }
 
  .foto-container {
- 	flex: 0 0 calc(20% - 20px);
+ 	flex: 0 0 calc(33.333% - 20px);
  	margin-bottom: 20px;
  	box-sizing: border-box;
-	text-align: center;
  }
 
  @media (max-width: 767px) {
 
  	.foto-container {
-
-				flex: 0 0 calc(33.333% - 20px);
+		flex: 0 0 calc(50% - 20px);
 	}
+ }
+ @media (max-width: 450px) {
+ 	.foto-container {
+ 		flex: 0 0 calc(100% - 20px);
+ 	}
  }
 .menu-container {
     display: flex;
