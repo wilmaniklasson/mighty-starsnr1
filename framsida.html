@@ -4,104 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/framsida.css">
+    <!-- Länkar till externa CSS-filer -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:300,400">
+    <link rel="stylesheet" href="styles/framsida.css"> 
+    <link rel="stylesheet" href="media-queries.css">
+    <!-- Inbäddad CSS-stil för bakgrundsbild -->
 
-    <style>
-        body {
-            background-image: url('images/testbild.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed; }
-    </style>
 </head>
     <body>
         <header>
             <div class="header-container">
+                <!-- Här finns navigationslänkar för din webbplats -->
                 <div class="navigation-knappar">
                     <a href="#produkten">Produkten</a>
                     <a href="#om-oss">Om oss</a>
                     <a href="#kontakt">Kontakt</a>
-                        <img src="images/kundvagn2.png" alt="kundvagn"> 
-                    </a>
+                    <img src="images/kundvagn2.png" alt="kundvagn"> 
                 </div>
             </div>
-            
         </header>
+        
         <main>
+             <!-- Här finns huvudrubrik och en beskrivande text -->
             <h1>chromebook för studenter</h1>
             <p>Med studentkortet har du möjlighet att köpa Chromebook till ett bra pris!</p>
+
+            <!-- Här finns en sektion för produkten -->
             <div id="produkten">
             <div class="produkten-container">
                 <div class="item"> 
                     <h3>En lättviktare att ta med överallt</h3>
                     <p> Denna kraftfulla laptop är slimmad i formen för att enkelt passa ryggan eller väskan. Den väger strax under 1,6 kg och är designad för att följa dig överallt. Finns i färgerna Graphite och Silver.</p>
-                    
-                    
-                    -Har en stor 14-tumsskärm i en kompakt kropp, vilket gör det enkelt att packa ner och bära med sig.
-                    - justering av 180-graders position
-                    -Snapdragon® 7c+ Gen 3 Compute Platforms har en prestanda och energieffektivitet som innebär smidig och snabb 5G-anslutning.
-                    -Kör på länge tack vare kraftfullt 42,3Wh-batteri. Du får upp till 20 timmars videouppspelning på en enda laddning och kan fylla på med 8 timmar på bara 30 minuter med snabbladdaren. 
+                    <p> Har en stor 14-tumsskärm i en kompakt kropp, vilket gör det enkelt att packa ner och bära med sig.</p>
+                    <p> justering av 180-graders position</p>
+                    <p> Snapdragon® 7c+ Gen 3 Compute Platforms har en prestanda och energieffektivitet som innebär smidig och snabb 5G-anslutning. </p>
+                    <p> Kör på länge tack vare kraftfullt 42,3Wh-batteri. Du får upp till 20 timmars videouppspelning på en enda laddning och kan fylla på med 8 timmar på bara 30 minuter med snabbladdaren. </p>
                 </div>
+              <!-- Här finns bilderna på datorn -->
                 <div class="item"> 
-                    <img src="images/Chromebook1.png" alt="chromebook"> 
-                </a>
-                </div>  
-            </div>
-
-
-            <div id="om-oss">
-                <div class="om-oss-conatiner">
-                    <div class="item"> 
-                    <h1>Samsung</h1>
-                    <h2>Vår målsättning och våra värderingar
-                        Vårt löfte att prestera ansvarsfullt som ett ledande, globalt företag.</h2>
-                        <p>Vår målsättning och strategi
-                            1. Stöttar människor i att bli så bra som möjligt
-                            Baserat på HR och tekniker
-                            · Se till att personalutveckling och teknisk överlägsenhet följer ledningsprinciperna · Öka synergieffekten av hela ledningssystemet genom mänskliga resurser och teknik
-                            2. Våra interna mål
-                            Skapa de bästa produkterna och tjänsterna
-                            · Skapa de produkter och tjänster som ger kunderna den bästa tillfredsställelsen · Behålla den ledande positionen i världen inom samma verksamhetsområde
-                            3. Bortom Samsung
-                            Och bidra till samhället
-                            · Bidra till gemensamma intressen och ett innehållsrikt liv · Genomföra uppgiftsbeskrivningen av en medlem i samhället</p>
-                    </div>
-                    <div class="item"> här kan vi lägga till något mer kul!</div>
+                    <img src="images/Chromebook1.png" alt="chromebook">
+                    <img src="images/usbport.png" alt="usb">
                 </div>
+            
+                 <!-- Här finns det små tre bilder samt undertexten-->
+                <div class="info-container">
+                    <div class="info-item">
+                        <img src="images/Prestanda.png" alt="prestanda"> 
+                        <p>Prestanda på ny nivå med 13th Gen Intel® Core™</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <img src="images/Dator.png" alt="Dator"> 
+                        <p>En lättviktare att ta med överallt </p >
+                        </div>
+
+                    <div class="info-item">
+                        <img src="images/batteri.png" alt="batteri"> 
+                        <p> Jobba lugnt med uthålligt batteri </p> 
+                    </div>
+                </div>
+            </div>
+                         <!-- Här är en huvudrubrik med info om samsung-->
+            <div id="om-oss">
+                <div class="om-oss-container">
+                    
+                    <h1>Samsung</h1>
+                    <h2>Vår målsättning och våra värderingar</h2>
+                    <h2>Vårt löfte att prestera ansvarsfullt som ett ledande, globalt företag.</h2>
+                    
+
+                        <b><p> <h3> Vår målsättning och strategi </h3></p></b>
+                    <lo>
+                        <li>Stöttar människor i att bli så bra som möjligt</li>
+                        <li>Baserat på HR och tekniker</li>
+                        <li>Se till att personalutveckling och teknisk överlägsenhet följer ledningsprinciperna </li>
+                        <li> Öka synergieffekten av hela ledningssystemet genom mänskliga resurser och teknik </li>
+                    </lo>
+
+                    
+                        <b><p> <h3> Våra interna mål </h3> </p></b>
+                    <lo>
+                        <li>Skapa de bästa produkterna och tjänsterna</li>
+                        <li>Skapa de produkter och tjänster som ger kunderna den bästa tillfredsställelsen</li>
+                        <li>Behålla den ledande positionen i världen inom samma verksamhetsområde </li> 
+                    </lo>
+                
+                    
+                        <b><p> <h3> Bortom Samsung</h3> </p></b>
+                    <lo>    
+                        <li>Bidra till samhället</li>
+                        <li> Bidra till gemensamma intressen och ett innehållsrikt liv.</li>
+                        <li>Genomföra uppgiftsbeskrivningen av en medlem i samhället</li>
+                    </lo>
             </div>
         </main>
             
-    
+      <!-- Här finns information om kontakt samt öppettider och adress, söndag har även fått en röd textfärg-->
     <footer>
         <div id="kontakt">
             <h2>Kontakt</h2>
         <div class="footer-container">
             <div>
                 <h3>Öppettider:</h3>
-                <lo>
-                    <li>måndag	10-18</li>
-                    <li>tisdag	10-18</li>
-                    <li>onsdag	10-18</li>
-                    <li>torsdag	10-18</li>
-                    <li>fredag	10-18</li>
-                    <li>lördag	10-17</li>
-                    <li>söndag: stängt</li>
-                </lo>
+                <ul>
+                    <li>måndag: 10-18</li>
+                    <li>tisdag: 10-18</li>
+                    <li>onsdag: 10-18</li>
+                    <li>torsdag: 10-18</li>
+                    <li>fredag: 10-18</li>
+                    <li>lördag: 10-17</li>
+                  <li class="röd">söndag: stängt</li>
+                </ul>
             </div>
 
             <div>
                 <h3>Adress:</h3>
-                <p>Östra Hamngatan 16</p> 
-                <p>411 09 Göteborg</p>
+            <ul>
+                <li>Östra Hamngatan 16</li> 
+                <li>411 09 Göteborg</li>
+            </ul>
             </div>
 
             <div>
                 <h3>Telefon:</h3>
-                <p>Alla vardagar 09:00-15:00</p>
-                <p>031-721 31 00</p>
+            <ul>
+                <li>Alla vardagar 09:00-15:00</li>
+                <li>031-721 31 00</li>
+            </ul>  
             </div> 
         </div>
-   
+           <!-- Här är en knapp som tar oss till våran sida,  -->
         <div class="info-knapp">
             <a href="om-oss.html">info</a>
         </div>
