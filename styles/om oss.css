@@ -1,11 +1,11 @@
-@import url('http://fonts.googleapis.com/css?family=Raleway:300,400'); 
+@import url('http://fonts.googleapis.com/css?family=Raleway:300,400');
 
-@font-face { 
-    font-family: "oswald"; 
-    src: url("fonts/oswald-bold") format(".ttf"); 
-    font-weight: normal; 
-    font-style: normal; 
-} 
+@font-face {
+    font-family: "oswald";
+    src: url("fonts/oswald-bold") format(".ttf");
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     background-color: #121212;
     color: aliceblue;
@@ -16,103 +16,127 @@ body{
     display: block;
     margin: 0 auto;
 }
-* { 
-    box-sizing: border-box; 
-    font-family: raleway; 
-    color: #777 
-} 
-.phone { 
-    text-decoration: underline; 
-    cursor: pointer; 
-    color: rgba(0, 162, 255, 0.645); 
-} 
+* {
+    box-sizing: border-box;
+    font-family: raleway;
+    color: #777
+}
+.phone {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(0, 162, 255, 0.645);
+}
 
-.addy { 
-    text-decoration: underline; 
-    cursor: pointer; 
-    color: rgba(0, 162, 255, 0.645) ; 
-} 
-.submit { 
-    cursor: pointer; 
-    background-color: rgba(0, 162, 255, 0.645); 
-    border: 0.5px solid; 
-    border-radius: 5px; 
-} 
-.main.text { 
-    font-family: 'Courier New', Courier, monospace; 
-    font-weight: bolder; 
-} 
-.fokus { 
-    font-weight: bold; 
-    font-family: 'Courier New', Courier, monospace; 
-} 
-.main-header { 
-    background-image: url("images/unpaid-logo.png") ; 
-    background-size: cover; 
-    background-color: rgba(0, 0, 0, 6); 
-    background-blend-mode: multiply; 
-    padding-bottom: 30px; 
-} 
-html, body { 
-    margin:0; 
-    padding: 0; 
-} 
-.nav menu-container { 
-    margin: 0; 
-    display: inline-block; 
-    padding: .5em; 
-    color: gold; 
-    text-decoration: none; 
-} 
-.main-nav { 
-    padding: 0 5%;  
- } 
-.nav menu-container:hover { 
-    background-color: rgba(255, 255, 255, .3) ; 
-} 
-.main-nav { 
-    border-radius: 50%; 
-    text-align: center; 
-    font-size: 1.1em; 
-    font-weight: bolder; 
-    border-bottom: 1px solid rgba(255, 255, 255, rgba(255, 255, 255, .3)); 
-    border-radius: 50%; 
-} 
-.company-name { 
-    text-align: center; 
-    margin: 0; 
-    font-size: 4em; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    font-weight: bold; 
-    color: rgb(57, 50, 12); 
-} 
-.grid-section { 
-    padding: 1em; 
-} 
-.container { 
-    max-width: 900px; 
-    margin: 0 auto; 
-    padding: 0 1.5em; 
-} 
-.menu-container { 
-    flex: auto; 
-    justify-content: space-between; 
-} 
-.main-footer { 
-    background-color:black 
-} 
-.main-footer-container { 
-    display: flex; 
-    align-items: center; 
-} 
-.main-footer-container ul { 
-    flex-grow: 1; 
-    text-align: end; 
-} 
-.footer-nav li { 
-    padding: 0 .5em; 
-} 
-.footer-nav img { 
-    width: 30px; 
-    height: 30px; 
-} 
+.addy {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(0, 162, 255, 0.645) ;
+}
+.submit {
+    cursor: pointer;
+    background-color: rgba(0, 162, 255, 0.645);
+    border: 0.5px solid;
+    border-radius: 5px;
+}
+.main.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.fokus {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-header {
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+html, body {
+    margin:0;
+    padding: 0;
+}
+.nav menu-container {
+    margin: 0;
+    display: inline-block;
+    padding: .5em;
+    color: gold;
+    text-decoration: none;
+}
+.main-nav {
+    padding: 0 5%;
+ }
+.nav menu-container:hover {
+    background-color: rgba(255, 255, 255, .3) ;
+}
+.main-nav {
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(255, 255, 255, rgba(255, 255, 255, .3));
+    border-radius: 50%;
+}
+.company-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(57, 50, 12);
+}
+.grid-section {
+    padding: 1em;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+ .foto-container-container {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: flex-start;
+	align-items: center;
+
+ }
+
+ .foto-container {
+ 	flex: 0 0 calc(20% - 20px);
+ 	margin-bottom: 20px;
+ 	box-sizing: border-box;
+	text-align: center;
+ }
+
+ @media (max-width: 767px) {
+
+ 	.foto-container {
+
+				flex: 0 0 calc(33.333% - 20px);
+	}
+ }
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+.textarea {
+	min-height: 4em;
+
+}
+
+.main-footer {
+    background: linear-gradient(#121212, rgb(54, 31, 31));
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
