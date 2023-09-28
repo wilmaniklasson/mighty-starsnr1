@@ -44,8 +44,7 @@ main > p {
 
 .navigation-knappar {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
+    justify-content: space-around; 
     align-items: center; 
     position: fixed;
     height: 4em;
@@ -53,7 +52,8 @@ main > p {
 }
 
 .navigation-knappar a {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap; 
     text-decoration: none;
     color: #333333;
     margin: 0.5em;
@@ -62,7 +62,7 @@ main > p {
     padding: 0.5em;
     background-color: #b0bede;
     border-radius: 5px;
-    min-width: 6em; 
+    min-width: 4em; 
     border: 4px double rgb(114, 94, 247);
     text-align: center;
   display: inline-block;  
@@ -74,11 +74,8 @@ main > p {
   padding: 0.5em;
   background-color: #e9d1fc;
   border-radius: 5px;
-  width: 6em;
   border: double rgb(114, 94, 247);
   text-align: center;
-  
-
 }
 
 
@@ -118,20 +115,27 @@ img {
 }
 
 .info-container {
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2em
     
     
 }
 .info-item {
     font-size: 18px;
+    
+   
+    
    
 }
 
 
 
 .info-item > img {
+     display: flex;
+    justify-content: space-around; 
+    align-items: center;
     height: 30px;
     width: 40px;
 
@@ -157,7 +161,7 @@ img {
 .footer-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin:2em ;
+    
     
 }
 
@@ -181,4 +185,3 @@ img {
     text-align: center;
 }
     
-}
