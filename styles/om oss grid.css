@@ -34,3 +34,6 @@ ul{
   a:visited {
     color: rgb(95, 84, 24); /* Change to your desired link color */
 }
+i{
+  size: 0.5em;
+}

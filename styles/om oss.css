@@ -84,7 +84,7 @@ html, body {
     justify-content: space-between; 
 } 
 .main-footer { 
-    background: linear-gradient(#121212, rgb(54, 31, 31)); 
+    background: linear-gradient(#121212, #151212, rgb(54, 31, 31)); 
 } 
 .main-footer-container { 
     display: flex; 
@@ -120,7 +120,7 @@ html, body {
   
   #topButton:hover,
   #topButton:focus {
-    background-color: #296976;
+    background-color: rgb(54, 31, 31);
   }
   
   
