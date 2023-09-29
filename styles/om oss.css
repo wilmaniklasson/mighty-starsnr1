@@ -99,6 +99,37 @@ html, body {
 } 
 
 
+
+.profil-container {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    gap: 1em;
+    padding: 4em;
+}
+.item-profil-container {
+    
+}
+
+.item-profil-container > img {
+    height:  90px ;
+    width: 90px;
+}
+
+
+@media (max-width: 767px) {
+    .profil-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.textarea {
+    min-height: 4em;
+
+}
+
 .toppen {
     position: fixed;
     bottom: 18em;
