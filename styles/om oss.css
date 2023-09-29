@@ -106,14 +106,15 @@ html, body {
   }
   
   #topButton {
-    background-color: #3bc3e1;
+    /* background-color: #3bc3e1; */
     color: #fff;
     padding: 1em;
     border: none;
     border-radius: 40%; 
     cursor: pointer;
     text-align: center; 
-    text-decoration: none; 
+    text-decoration: none;
+    transition: background-color 0.8s ease 
   }
   
   
