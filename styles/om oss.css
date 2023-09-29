@@ -95,9 +95,34 @@ html, body {
     text-align: end; 
 } 
 .footer-nav li { 
-    padding: 0 .5em; 
+    padding: 1em; 
 } 
-.footer-nav img { 
-    width: 30px; 
-    height: 30px; 
-} 
+
+
+.toppen {
+    position: fixed;
+    bottom: 18em;
+    right: 1em;
+  }
+  
+  #topButton {
+    background-color: #3bc3e1;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    border-radius: 40%; 
+    cursor: pointer;
+    text-align: center; 
+    text-decoration: none; 
+  }
+  
+  
+  #topButton:hover {
+    background-color: #296976;
+  }
+  
+  
+  #topButton i {
+    font-size: 20px; 
+  }
+  
