@@ -118,7 +118,8 @@ html, body {
   }
   
   
-  #topButton:hover {
+  #topButton:hover,
+  #topButton:focus {
     background-color: #296976;
   }
   
