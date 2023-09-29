@@ -1,0 +1,36 @@
+ul{
+    list-style-type: none;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr; 
+    grid-template-rows: repeat(5, auto);
+
+  }
+.empty1, .empty2{
+    grid-row: span 5;
+}
+.company{
+    grid-column: 2;
+}
+@media (max-width: 768px) {
+    .grid-section-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+  .menu-container a{
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    transition: font-size 0.5s ease;
+  }
+  .menu-container a:hover,
+  .menu-container a:focus{
+    background-color: rgb(54, 31, 31);
+    box-shadow: 8px 8px 8px rgb(54, 31, 31);
+    font-size: 28px;
+  }
+  a:visited {
+    color: rgb(95, 84, 24); /* Change to your desired link color */
+}
