@@ -116,6 +116,11 @@ html, body {
     box-sizing: border-box;
  }
 
+ .foto > img {
+    height:  90px ;
+    width: 90px;
+ }
+
  @media (max-width: 767px) {
 
     .foto-container {
