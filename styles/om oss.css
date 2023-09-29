@@ -83,6 +83,8 @@ html, body {
     display: flex;
     justify-content: space-between; 
 } 
+
+
 .main-footer { 
     background: linear-gradient(#121212, rgb(54, 31, 31)); 
 } 
@@ -98,6 +100,41 @@ html, body {
     padding: 1em; 
 } 
 
+
+
+.foto-container-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: 3em;
+ }
+
+ .foto-container {
+    flex: 0 0 calc(33.333% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+ }
+
+ @media (max-width: 767px) {
+
+    .foto-container {
+        flex: 0 0 calc(50% - 20px);
+    }
+ }
+ @media (max-width: 450px) {
+    .foto-container {
+        flex: 0 0 calc(100% - 20px);
+    }
+ }
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+.textarea {
+    min-height: 4em;
+
+}
 
 .toppen {
     position: fixed;
