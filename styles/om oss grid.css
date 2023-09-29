@@ -2,8 +2,9 @@ ul{
     list-style-type: none;
 }
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 550px 1fr; 
+   padding: 2em; 
+   display: grid;
+    grid-template-columns: 1fr 540px 1fr; 
     grid-template-rows: repeat(5, auto);
 
   }
@@ -14,10 +15,13 @@ ul{
     grid-column: 2;
 }
 @media (max-width: 768px) {
-    .grid-section-container {
+    .grid {
       grid-template-columns: 1fr; 
     }
   }
+  
+  
+
   .menu-container a{
     font-size: 20px;
     text-decoration: none;
