@@ -114,6 +114,13 @@ html, body {
 }
 
 
+@media (max-width: 767px) {
+    .profil-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 
 
 
