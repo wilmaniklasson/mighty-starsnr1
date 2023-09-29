@@ -3,7 +3,7 @@ ul{
 }
 .grid {
     display: grid;
-    grid-template-columns: 1fr 400px 1fr; 
+    grid-template-columns: 1fr 550px 1fr; 
     grid-template-rows: repeat(5, auto);
 
   }
