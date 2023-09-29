@@ -106,7 +106,6 @@ html, body {
   }
   
   #topButton {
-    background-color: #3bc3e1;
     color: #fff;
     padding: 1em;
     border: none;
@@ -114,10 +113,12 @@ html, body {
     cursor: pointer;
     text-align: center; 
     text-decoration: none; 
+    transition: background-color 0.8s ease 
   }
   
   
-  #topButton:hover {
+  #topButton:hover,
+  #topButton:focus {
     background-color: #296976;
   }
   
