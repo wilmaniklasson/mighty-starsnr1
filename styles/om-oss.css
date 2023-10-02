@@ -6,6 +6,7 @@
     font-weight: normal; 
     font-style: normal; 
 } 
+/* bakgrundsfärgen*/
 body{
     background-color: #121212;
     box-sizing: border-box; 
@@ -35,6 +36,7 @@ body{
     border: 0.5px solid; 
     border-radius: 5px; 
 } 
+/* Textformatet i main */
 .main.text { 
     font-family: 'Courier New', Courier, monospace; 
     font-weight: bolder; 
@@ -83,6 +85,7 @@ html, body {
     display: flex;
     justify-content: space-between; 
 } 
+/* Footer */
 .main-footer { 
     background: linear-gradient(#121212, rgb(54, 31, 31)); 
 } 
