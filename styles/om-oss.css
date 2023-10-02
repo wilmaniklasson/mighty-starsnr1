@@ -1,0 +1,163 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway:300,400'); 
+
+@font-face { 
+    font-family: "oswald"; 
+    src: url("fonts/oswald-bold") format(".ttf"); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+/* bakgrundsfärgen*/
+body{
+    background-color: #121212;
+    box-sizing: border-box; 
+    font-family: raleway; 
+    color: #777 
+}
+.logo{
+    width: 20em;
+    height: 12em;
+    display: block;
+    margin: 0 auto;
+}
+.phone { 
+    text-decoration: underline; 
+    cursor: pointer; 
+    color: rgba(0, 162, 255, 0.645); 
+} 
+
+.addy { 
+    text-decoration: underline; 
+    cursor: pointer; 
+    color: rgba(0, 162, 255, 0.645) ; 
+} 
+.submit { 
+    cursor: pointer; 
+    background-color: rgba(0, 162, 255, 0.645); 
+    border: 0.5px solid; 
+    border-radius: 5px; 
+} 
+/* Textformatet i main */
+.main.text { 
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bolder; 
+} 
+.fokus { 
+    font-weight: bold; 
+    font-family: 'Courier New', Courier, monospace; 
+} 
+.main-header {
+    background-blend-mode: multiply; 
+    padding-bottom: 30px; 
+} 
+html, body { 
+    margin:0; 
+    padding: 0; 
+} 
+.main-nav { 
+    padding: 0 5%;  
+ } 
+
+ .main-nav { 
+    border-radius: 50%; 
+    text-align: center; 
+    font-size: 1.1em; 
+    font-weight: bolder; 
+    border-bottom: 1px solid rgba(255, 255, 255, rgba(255, 255, 255, .3)); 
+    border-radius: 50%; 
+} 
+.company-name { 
+    text-align: center; 
+    margin: 0; 
+    font-size: 4em; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: bold; 
+    color: rgb(57, 50, 12); 
+} 
+.grid-section { 
+    padding: 1em; 
+} 
+.container { 
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 0 1.5em; 
+} 
+.menu-container { 
+    display: flex;
+    justify-content: space-between; 
+} 
+/* Footer */
+.main-footer { 
+    background: linear-gradient(#121212, rgb(54, 31, 31)); 
+} 
+.main-footer-container { 
+    display: flex; 
+    align-items: center; 
+} 
+.main-footer-container ul { 
+    flex-grow: 1; 
+    text-align: end; 
+} 
+.footer-nav li { 
+    padding: 1em; 
+} 
+
+
+
+.profil-container {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    gap: 1em;
+    padding: 4em;
+}
+.item-profil-container {
+    
+}
+
+.item-profil-container > img {
+    height:  90px ;
+    width: 90px;
+}
+
+
+@media (max-width: 767px) {
+    .profil-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.textarea {
+    min-height: 4em;
+
+}
+
+.toppen {
+    position: fixed;
+    bottom: 18em;
+    right: 1em;
+  }
+  
+  #topButton {
+    color: #fff;
+    padding: 1em;
+    border: none;
+    border-radius: 40%; 
+    cursor: pointer;
+    text-align: center; 
+    text-decoration: none; 
+    transition: background-color 0.8s ease 
+  }
+  
+  
+  #topButton:hover,
+  #topButton:focus {
+    background-color: #296976;
+  }
+  
+  
+  #topButton i {
+    font-size: 20px; 
+  }
+  

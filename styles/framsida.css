@@ -1,11 +1,36 @@
 body {
-   
-   
+    background-image: url('../images/testbild.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-family: 'Raleway', sans-serif; 
+    
+}
+
+h1, h2, h3 {
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+   font-size: 20px;
+}
+
+li {
+    text-align: center;
+   font-size: 17px;
+   list-style-type: none;
+}
+
+.röd {
+    color:red;
 }
 
 main > p {
@@ -13,17 +38,14 @@ main > p {
     font-size: 20px;
 }
 
-
-/*____________heander________*/
+/* Header */
 .header-container{
     padding-bottom: 6em;
 }
 
-
 .navigation-knappar {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
+    justify-content: space-around; 
     align-items: center; 
     position: fixed;
     height: 4em;
@@ -31,98 +53,108 @@ main > p {
 }
 
 .navigation-knappar a {
-    display: inline-block;
     text-decoration: none;
     color: #333333;
     margin: 0.5em;
     font-weight: bold;
     font-size: 18px;
     padding: 0.5em;
-    background-color: #b0bede;
+    background-color: #e9d1fc;
     border-radius: 5px;
-    min-width: 6em; 
-    border: 4px double rgb(114, 94, 247);
+    border: double rgb(114, 94, 247);
     text-align: center;
-  display: inline-block;  
-  text-decoration: none;
-  color: #333333;
-  margin: 0.5em;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 0.5em;
-  background-color: #e9d1fc;
-  border-radius: 5px;
-  width: 6em;
-  border: double rgb(114, 94, 247);
-  text-align: center;
-  
-
 }
 
 
 .navigation-knappar a:hover {
     background-color: #8387be;
-  }
-  
-  
-.header-container img {
-    width: 55px;
-    height: 55px;
-   
-    
-    
 }
+  
+.header-container  img {
+    width: 55px;
+    height: 55px;  
+}
+/* Knapp för köp nu */ 
 
-/*____________header slut____________________*/
+button {
+	background-color: #933bf1;
+	/* färg på prisknappen */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	}
+    
+/* Main */
 
 main {
     margin-top: 1em;
-    margin-bottom:7em ;
+    margin-bottom:5em ;
 }
+
 .produkten-container {
     display: grid;
     grid-template-columns:1fr 1fr ;
-    
+    gap: 1em;
 }
 
-
-.produkten-container > div {
+.item {
     padding: 1em;
-
 }
+
 img {
     width: 350px;
     height: 230px;
-    padding: 0;
 }
 
-  
-   
-.om-oss-conatiner {
-    margin: 3em;
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2em
     
 }
-
-.om-oss-conatiner > div {
-    text-align: center;
+.info-item {
+    font-size: 18px; 
 }
 
-/*________________footer______________*/
-h2 {
-    text-align: center;
-    font-size:25px ;
+.info-item > img {
+     display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    height: 30px;
+    width: 40px;
+}
+     
+.om-oss-container {
+    margin: 3em;
+    font-size: 20px; 
 }
 
+.om-oss-container > h1 {
+    font-size:60px ;
+}
+
+.om-oss-container > p {
+   font-size: 18px;
+   text-align: center;
+
+}
+.om-oss-container > h3 {
+    font-weight: bold;
+}
+
+/* Footer */
 
 .footer-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin:2em ;
-    
+    grid-template-columns: repeat(3, 1fr);  
 }
-
-
-
 
 .info-knapp a {
     text-decoration: none;
@@ -136,4 +168,32 @@ h2 {
     border: 4px double rgb(114, 94, 247);
     text-align: center;
 }
-    
+
+.toppen {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  #topButton {
+    background-color: #933bf1;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    border-radius: 40%; 
+    cursor: pointer;
+    text-align: center; 
+    text-decoration: none; 
+  }
+  
+  
+  #topButton:hover {
+    background-color: #631590;
+  }
+  
+  
+  #topButton i {
+    font-size: 20px; 
+  }
+  
+  
