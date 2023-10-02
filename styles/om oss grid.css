@@ -35,3 +35,13 @@ ul{
   a:visited {
     color: rgb(95, 84, 24); /* Change to your desired link color */
 }
+/* ---------- inputfältspill-------------- */
+input{
+  text-align: right;
+  width: calc(100% - 160px); 
+  padding: 5px;
+}
+label{
+  tex-align: left;
+  width: calc(100% - 110px);
+}
