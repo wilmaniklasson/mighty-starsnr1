@@ -1,37 +1,35 @@
 
-/* Mediafråga för skärmar med maxbredd 767px */
-@media (max-width: 767px) {
-    .produkten-container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+/* Mediafråga för skärmar med maxbredd 767px */	
+@media (max-width: 767px) {	
+    .produkten-container {	
+        display: grid;	
+        grid-template-columns: 1fr;	
+    }	
 
-    h1 {
-        font-size: 25px;
-    }
+    h1 {	
+        font-size: 25px;	
+    }	
 
-    .om-oss-container > h1 {
-        font-size: 40px;
-    }
+    .om-oss-container > h1 {	
+        font-size: 40px;	
+    }	
 
-    h2,h3 {
-        font-size: 18px;
-    }
+    h2,h3 {	
+        font-size: 18px;	
+    }	
 
-    li {
-        font-size: 15px;
-    }
+    li {	
+        font-size: 15px;	
+    }	
 
-    .info-item > img {
-        height: 20px;
-        width: 30px;
-    }
+    .info-item > img {	
+        height: 20px;	
+        width: 30px;	
+    }	
 
-    .info-item {
-        font-size: 15px;
-    }
-}
-
-
+    .info-item {	
+        font-size: 15px;	
+    }	
+}	
 
 
