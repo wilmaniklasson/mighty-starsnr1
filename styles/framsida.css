@@ -73,6 +73,7 @@ main > p {
 .header-container  img {
     width: 55px;
     height: 55px;  
+    padding-right: 2em;
 }
 /* Knapp för köp nu */ 
 

@@ -21,6 +21,7 @@ ul{
  }
   .menu-container a {
     text-decoration: none;
+    color:  rgb(95, 84, 24);
     font-size: 20px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
