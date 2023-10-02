@@ -19,9 +19,9 @@ ul{
      grid-template-columns: 1fr; 
    }
  }
-  .menu-container a{
-    font-size: 20px;
+  .menu-container a {
     text-decoration: none;
+    font-size: 20px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
     transition: font-size 0.5s ease;
