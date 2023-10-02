@@ -186,35 +186,49 @@
             413 99 Göteborg <br/><br/>
             </h5>
             <h5 class="phone"> Telefon: 1300 492727 </h5>                                   
-            <form name="kontaktinfo" autocomplete="off" novalidate method="post" onsubmit="return false">
+            <form class="contact-form" name="kontaktinfo" autocomplete="off" novalidate method="post" onsubmit="return false">
+              <div class="inputbox">
             <label>                
               Namn *                
               <input type="text" name="name" />
-            </label> <br/>
+            </label>
+              </div>
+              <div class="inputbox">
             <label>                
               Företag *
               <input type="text" name="company" />
-            </label><br/>
+            </label>
+              </div>
+              <div class="inputbox">
             <label>
               Adress
               <input type="text" name="adress" />
-            </label><br/>
+            </label>
+              </div>
+              <div class="inputbox">
             <label>
               Postnummer
               <input type="number" name="zip" />
-            </label><br/>
+            </label>
+              </div>
+              <div class="inputbox">
             <label>
               Telefonnummer
               <input type="number" name="number" />
-            </label><br/>
+            </label>
+              </div>
+              <div class="inputbox">
             <label>
               Email
               <input type="email" name="email" />
-            </label><br/>
+            </label>
+              </div>
+              <div class="inputbox">
             <label>
               Meddelande
-              <input type="text" name="message" />
-            </label>              
+              <input class="large" type="text" name="message" />
+            </label>
+              </div>              
             <button type="submit"> Skicka </button>
             </form>
         </div>
