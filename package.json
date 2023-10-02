@@ -1,0 +1,12 @@
+{
+  "name": "mighty-starsnr1",
+  "version": "1.0.0",
+  "description": "Grupparbete: produktbolag Utbildning: Handelsakademin frontend developer Klass: FED23GB  kurs: HTML och CSS  \"Vi har blivit anlitade av ett produktföretag för att bygga deras webbsida!\"",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "surge ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
